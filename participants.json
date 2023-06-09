@@ -3,65 +3,68 @@
         "Description": "group participant",
         "Levels": {
             "1": "HC",
-            "2": "CUD" }
+            "2": "CUD"
+        }
     },
     "age": {
         "Description": "age of the participant",
-        "Units": "years"
+        "Units": "years",
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:Age",
+                "Label": ""
+            }
+        }
     },
     "sex": {
         "Description": "sex of participants",
         "Levels": {
             "1": "men",
             "2": "women"
+        },
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:Sex",
+                "Label": ""
+            },
+            "Levels": {
+                "1": {
+                    "TermURL": NaN,
+                    "Label": ""
+                },
+                "2": {
+                    "TermURL": NaN,
+                    "Label": ""
+                },
+                "NaN": {
+                    "TermURL": NaN,
+                    "Label": ""
+                }
+            }
         }
     },
-    "educ": {
-    },
-    "educ_yr": {
-    },
-    "occup": {
-    },
-    "income": {
-    },
-    "civil_st": {
-    },
-    "child": {
-    },
-    "child_num": {
-    },
-    "work_thirtydays": {
-    },
-    "work_threeyears": {
-    },
-    "laterality": {
-    },
-    "ed_score": {
-    },
-    "amai": {
-    },
-    "amai_score": {
-    },
-    "admin.route": {
-    },
-    "years.begin": {
-    },
-    "coc.age.onset": {
-    },
-    "days.last.use": {
-    },
-    "week.dose": {
-    },
-    "tobc.lastyear": {
-    },
-    "tobc.day": {
-    },
-    "tobc.totyears": {
-    },
-    "tobc.begin": {
-    },
-    "exclusion": {
-    },
-    "comm": {
-    }
+    "educ": {},
+    "educ_yr": {},
+    "occup": {},
+    "income": {},
+    "civil_st": {},
+    "child": {},
+    "child_num": {},
+    "work_thirtydays": {},
+    "work_threeyears": {},
+    "laterality": {},
+    "ed_score": {},
+    "amai": {},
+    "amai_score": {},
+    "admin.route": {},
+    "years.begin": {},
+    "coc.age.onset": {},
+    "days.last.use": {},
+    "week.dose": {},
+    "tobc.lastyear": {},
+    "tobc.day": {},
+    "tobc.totyears": {},
+    "tobc.begin": {},
+    "exclusion": {},
+    "comm": {}
 }
